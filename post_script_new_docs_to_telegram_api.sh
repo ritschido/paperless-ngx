@@ -7,7 +7,6 @@ SENDPHOTO="https://api.telegram.org/$TOKEN/sendphoto"
 SENDTEXT="https://api.telegram.org/$TOKEN/sendMessage"
 SEND_ID="123456789"
 
-#curl -v "https://api.telegram.org/bot""$TOKEN""/sendPhoto?chat_id=""$USER_ID" -H 'Content-Type: multipart/form-data' -F photo=@"${6}"
 curl \
 -F "chat_id="$SEND_ID"" \
 -F "photo=@"${DOCUMENT_THUMBNAIL_PATH}"" \
