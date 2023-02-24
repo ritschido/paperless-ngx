@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#Einbinden über PAPERLESS_POST_CONSUME_SCRIPT und chmod a+x nicht vergessen.
+
 TOKEN="botxxxxxxx"
 SENDPHOTO="https://api.telegram.org/$TOKEN/sendphoto"
 SENDTEXT="https://api.telegram.org/$TOKEN/sendMessage"
